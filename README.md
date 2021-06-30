@@ -1,5 +1,6 @@
-To initialize the Arduino component, add the submodule with this command.
+To initialize the Arduino component when cloning this project, clone
+with the `--recurse-submodules` flag like this:
 
 ```
-git clone https://github.com/espressif/arduino-esp32.git components/arduino
+git clone --recurse-submodules git@github.com:GitKeithDavis/idfuino.git
 ```
